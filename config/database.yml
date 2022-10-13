@@ -8,7 +8,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   username: postgres
-  password: taduc123 #<-- which you have defiend while installing postgresql
+  password: taduc123
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
